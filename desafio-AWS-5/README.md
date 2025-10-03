@@ -13,7 +13,4 @@ Conteúdo do repositório:
 1. Preencha `params.yml` com seus valores (bucket, nomes, prefixo, região).
 2. Execute `./deploy.sh` para empacotar e implantar via AWS CLI / SAM.
 
-## Requisitos
-- AWS CLI configurado com credenciais
-- SAM CLI ou pacote AWS CloudFormation
-- Node 18+
+# Feito por Rafaela Nascimento Sant Ana @ 2025
