@@ -1,0 +1,12 @@
+# Parâmetros de implantação - preencha antes do deploy
+StackName: lambda-s3-automation-stack
+Region: us-east-1
+BucketName: my-lambda-s3-bucket-{{random_suffix}}
+LambdaFunctionName: lambdaS3Processor
+Runtime: nodejs18.x
+Handler: index.handler
+MemorySize: 256
+Timeout: 30
+
+# Prefixo opcional para objetos que acionam a função
+S3EventPrefix: uploads/
